@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Serif+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Gideon Roman", cursive;
+}
+
+.header {
+  background-color: pink;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a:hover {
+  background-color: lavenderblush;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+li {
+  margin: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+  padding: 30px;
+}
+ .logo img {
+    width: 50px;
+    height: 60px;
+
+  }
+
+  aside img {
+    width: 5em;
+    height: 6em;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding: 5px;
+  }
+  
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: lightcyan;
+}
+
+.gallery-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: lightcyan;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+.div desc {
+font-size: 13px;
+}
+
+  div p {
+    font-size: 16px;
+  }
+
+section {
+padding:25px;
+margin-top:50px;
+color :grey;
+}
+
+nav {
+color: grey;
+padding: 15px;
+}
+.social-icon {
+    color: rgb(96, 185, 214);
+    transition: color 0.2;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    width: 50px;
+  }
+  
+  .social-icon:hover {
+    color: blue; 
+  }
